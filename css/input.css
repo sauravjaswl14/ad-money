@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Asap',
+sans-serif;
+font-family: 'Kalam',
+cursive;
+font-family: 'Poppins',
+sans-serif;
+font-family: 'Yantramanav',
+sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Yantramanav', sans-serif;
+
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#banner {
+  /* background-image: url(../img/banner.png); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+#banner h4 {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+#banner h1 {
+  font-family: 'Asap', sans-serif;
+}
+
+#banner p {
+  font-family: 'Poppins', sans-serif;
+}
+
+#banner-btn {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.special {
+  font-weight: 700;
+  font-family: "Kalam", cursive;
+  font-style: italic;
+  background: -webkit-linear-gradient(-19deg, #8e54e9 10%, #014f86);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.circle {
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+}
+
+.lottery {
+  background-image: url(../img/lottery-ticket-shape.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cta {
+  padding: 120px 30px;
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+}
+
+.pentagon {
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+
+}
+
+.team-section {
+  background-image: url(../img/team-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.team-name {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.paid-from {
+  background: -webkit-linear-gradient(-19deg, #8e54e9 10%, #014f86);
+}
+
+.section-title {
+  font-family: 'Yantramanav', sans-serif;
+  background: -webkit-linear-gradient(-19deg, #8e54e9 10%, #014f86);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.payment-gateway {
+  background-image: url(../img/banner1.png);
+}
+
+.EarnLongTime {
+  background: -webkit-linear-gradient(-19deg, #8e54e9 10%, #014f86);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Poppins", sans-serif;
+}
+
+.bottom-nav {
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+}
+
+.breadcrum-container {
+  background-image: url(../img/breadcrumb-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.stats {
+  background-image: url(../img/banner.png);
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+  padding: 60px;
+}
+
+
+.social {
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+
+}
+
+.contact {
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+  z-index: 10;
+}
+
+.contact-special {
+  font-family: "Kalam", cursive;
+}
+
+.contact-form {
+  background: linear-gradient(-19deg, #014f86 10%, #8e54e9);
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .cta {
+    padding: 60px 0;
+  }
+}

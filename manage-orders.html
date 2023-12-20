@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700;900&family=Kalam:wght@300;400;700&family=Poppins:wght@400;600;700;900&family=Yantramanav:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Admin Panel</title>
+  </head>
+  <body>
+    <header>
+      <!-- Desktop view -->
+      <nav class="hidden fixed w-full top-0 z-40 shadow-lg lg:block">
+        <div class="bg-white w-full py-3 px-5">
+          <div class="flex justify-around">
+            <img
+              src="./img/logo3..jpeg"
+              class="w-[130px] h-[100px] rounded-md"
+              alt=""
+            />
+
+            <div class="flex space-x-20 items-center">
+              <a
+                href="admin-dashboard.html"
+                class="text-[#4776e6] font-semibold"
+                >Users Details</a
+              >
+
+              <a href="manage-orders.html" class="text-[#4776e6] font-semibold"
+                >Manage Orders</a
+              >
+              <a
+                href="withdraw-requests.html"
+                class="text-[#4776e6] font-semibold"
+                >Withdraw Requests</a
+              >
+
+              <a href="order-details.html" class="text-[#4776e6] font-semibold"
+                >Order Details</a
+              >
+
+              <a href="dashboard.html" class="text-[#4776e6] font-semibold"
+                >Dashboard</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- mobile view -->
+      <nav class="lg:hidden">
+        <div class="bg-white shadow-xl p-4">
+          <div class="w-full flex justify-between items-center">
+            <!-- Hamburger -->
+            <img src="./img/hamburger.png" class="w-8 h-8" alt="hamburger" />
+            <img
+              src="./img/logo3..jpeg"
+              class="w-20 lg:w-[200px] lg:h-[68px]"
+              alt="logo"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="mt-64 lg:px-32">
+      <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500">
+          <thead class="text-xs text-gray-700 uppercase bg-gray-300">
+            <tr>
+              <th scope="col" class="px-6 py-3">User Id</th>
+              <th scope="col" class="px-6 py-3">User's Name</th>
+              <th scope="col" class="px-6 py-3">Email</th>
+              <th scope="col" class="px-6 py-3">Amount</th>
+              <th scope="col" class="px-6 py-3">Payment Details</th>
+              <th scope="col" class="px-6 py-3">Payment Gateway</th>
+              <th scope="col" class="px-6 py-3">Plan</th>
+              <th scope="col" class="px-6 py-3">
+                <span class="sr-only">Edit</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="bg-white border-b dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-100"
+            >
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              >
+                121927jshgdj7231827310982
+              </th>
+              <td class="px-6 py-4">John Doe</td>
+              <td class="px-6 py-4">johndoe@gmail.com</td>
+              <td class="px-6 py-4">5999</td>
+              <td class="px-6 py-4">
+                <img
+                  src="./img/screenshot.png"
+                  class="w-[30px] h-[30px]"
+                  alt=""
+                />
+              </td>
+              <td class="px-6 py-4">Easy Paisa</td>
+              <td class="px-6 py-4">$2 Plan</td>
+              <td class="flex space-x-5 px-6 py-4">
+                <button
+                  class="text-blue-600 font-bold dark:text-blue-500 hover:underline"
+                >
+                  Approve
+                </button>
+                <button
+                  class="text-red-600 font-bold dark:text-red-500 hover:underline"
+                >
+                  Decline
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
